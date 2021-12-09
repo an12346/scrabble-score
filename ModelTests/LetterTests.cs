@@ -12,7 +12,7 @@ namespace ScrabbleScore.Tests
     [TestMethod]
     public void IsScore_ResturnLetter_True()
     {
-      Score testScore = new Score("A");
+      Score testScore = new Score("B");
       Assert.AreEqual( typeof(Score), testScore.GetType());
     }
   }
