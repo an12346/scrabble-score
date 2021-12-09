@@ -15,6 +15,5 @@ namespace ScrabbleScore.Tests
       Score testScore = new Score("A");
       Assert.AreEqual( typeof(Score), testScore.GetType());
     }
-
   }
 }
